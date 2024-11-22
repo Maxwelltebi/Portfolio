@@ -1,0 +1,4 @@
+{
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "livePreview.defaultPreviewPath": "/index.html"
+}
