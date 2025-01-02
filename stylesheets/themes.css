@@ -1990,6 +1990,22 @@ body .main .content footer.footer .content small {
     box-sizing: border-box;
     margin-bottom: 2rem;
   }
+  body .main .content .experience-section.hidden {
+    opacity: 0;
+    transition: all 2s ease;
+    filter: blur(5px);
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    transform: translateX(100%);
+  }
+  body .main .content .experience-section.show {
+    opacity: 1 !important;
+    transition: all 2s ease;
+    transform: translateX(0);
+    filter: blur(0);
+    position: relative;
+  }
   body .main .content .experience-section .main_content {
     width: 100%;
     height: 100%;
@@ -2093,6 +2109,7 @@ body .main .content footer.footer .content small {
     height: -moz-fit-content;
     height: fit-content;
     padding: 0.2rem 0 !important;
+    text-wrap: wrap;
     box-sizing: border-box;
     align-items: center;
   }
