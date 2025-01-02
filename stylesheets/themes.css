@@ -731,14 +731,15 @@ body .main .content .experience-section .main_content h4 hr {
 }
 body .main .content .experience-section .main_content .workplaces {
   display: flex;
-  width: 90%;
+  width: 100%;
+  box-sizing: border-box;
   padding: 1rem;
   align-items: center;
   margin-top: 2rem;
   flex-direction: row;
 }
 body .main .content .experience-section .main_content .workplaces .action-buttons {
-  width: 18%;
+  width: 25%;
   height: 100%;
   box-sizing: border-box;
   display: flex;
@@ -769,7 +770,7 @@ body .main .content .experience-section .main_content .workplaces .action-button
   border-left: 2px solid var(--primary-color) !important;
 }
 body .main .content .experience-section .main_content .workplaces .work-details {
-  width: 80%;
+  width: 75%;
   display: none;
   flex-direction: column;
   align-items: flex-start;
@@ -781,6 +782,7 @@ body .main .content .experience-section .main_content .workplaces .work-details 
   display: flex;
   width: -moz-fit-content;
   width: fit-content;
+  text-wrap: nowrap;
   padding: 0 !important;
 }
 body .main .content .experience-section .main_content .workplaces .work-details h4.position a {
@@ -811,6 +813,7 @@ body .main .content .experience-section .main_content .workplaces .work-details 
   width: 100%;
   display: flex;
   align-items: center;
+  padding: 1rem 0;
 }
 body .main .content .experience-section .main_content .workplaces .work-details ul.responsibilities li i.bx {
   width: 5%;
@@ -818,7 +821,7 @@ body .main .content .experience-section .main_content .workplaces .work-details 
 }
 body .main .content .experience-section .main_content .workplaces .work-details ul.responsibilities li p {
   width: 90%;
-  margin-bottom: 0;
+  margin: 0;
   line-height: 1.3em;
   font-weight: 300;
   letter-spacing: 0.02cm;

@@ -716,7 +716,7 @@ body{
                 align-items: center;
                 justify-content: space-around;
                 box-sizing: border-box;
-            
+                
                 margin-bottom: 2rem;
                 &.hidden{
                     opacity: 0;
@@ -737,7 +737,7 @@ body{
                 .main_content{
                     width: 92.5%;
                     height:100vh;
-                    
+                   
                     display: flex;
                     flex-direction: column;
                     box-sizing: border-box;
@@ -780,13 +780,15 @@ body{
                     }
                     .workplaces{
                         display: flex;
-                        width: 90%;
+                        width: 100%;
+                        box-sizing: border-box;
+                       
                         padding: 1rem;
                         align-items: center;
                         margin-top: 2rem;
                         flex-direction: row;
                         .action-buttons{
-                            width: 18%;
+                            width: 25%;
                             height: 100%;
                             box-sizing: border-box;
                             display: flex;
@@ -818,17 +820,19 @@ body{
                             }
                         }
                         .work-details{
-                            width: 80%;
+                            width: 75%;
                             display:none;
                             flex-direction: column;
                             align-items: flex-start;
                             padding: 0 1rem;
+                            
                             h4.position{
                                 color: var(--accent-color);
                                 text-align: start !important;
                                 display: flex;
                                 width:fit-content;
                                 
+                                text-wrap: nowrap;
                                 padding: 0 !important;
                                 
                                 a{
@@ -863,14 +867,15 @@ body{
                                     width: 100%;
                                     display: flex;
                                     align-items: center;
-                                
+                                    
+                                    padding: 1rem 0;
                                     i.bx{
                                         width: 5%;
                                         color: var(--primary-color);
                                     }
                                     p{
                                         width: 90%;
-                                        margin-bottom: 0;
+                                        margin: 0;
                                         line-height: 1.3em;
                                         font-weight: 300;
                                         letter-spacing: .02cm;

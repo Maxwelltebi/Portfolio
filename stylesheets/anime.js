@@ -40,7 +40,7 @@ anime.timeline({loop: false})
   }
 
 
-  var name = 'Bismark Frimpong.';
+  var name = 'Maxwell Tebi.';
   var j = 0
   var speed = 50;
   function typeName() {
@@ -52,7 +52,7 @@ anime.timeline({loop: false})
   }
 
 
-  var job = 'I develop things for the web.';
+  var job = 'I am an innovator and developer for all things that live on the web.';
   var k = 0
   var speed = 50;
   function typeDo() {
